@@ -29,7 +29,17 @@ namespace ElectroMaster
 
         private void aDDEMPLOYEEToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            var myForm = new AddEmployee();
+            
+        }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void sTARTNEWSALESPOINTToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var myForm = new SalesPointLogin();
             myForm.Show();
         }
     }

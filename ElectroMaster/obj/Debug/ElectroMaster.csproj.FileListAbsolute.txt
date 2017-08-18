@@ -16,3 +16,14 @@ C:\Users\Vimukthi\Documents\Visual Studio 2015\Projects\ElectroMaster\ElectroMas
 C:\Users\Vimukthi\Desktop\Electromaster\ElectroMaster\bin\Debug\ElectroMaster.exe.config
 C:\Users\Vimukthi\Desktop\Electromaster\ElectroMaster\obj\Debug\ElectroMaster.exe
 C:\Users\Vimukthi\Desktop\Electromaster\ElectroMaster\obj\Debug\ElectroMaster.pdb
+C:\Users\Vimukthi\Desktop\Electromaster\ElectroMaster\bin\Debug\ElectroMaster.exe
+C:\Users\Vimukthi\Desktop\Electromaster\ElectroMaster\bin\Debug\ElectroMaster.pdb
+C:\Users\Vimukthi\Desktop\Electromaster\ElectroMaster\bin\Debug\MetroFramework.Design.dll
+C:\Users\Vimukthi\Desktop\Electromaster\ElectroMaster\bin\Debug\MetroFramework.dll
+C:\Users\Vimukthi\Desktop\Electromaster\ElectroMaster\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Vimukthi\Desktop\Electromaster\ElectroMaster\obj\Debug\ElectroMaster.csprojResolveAssemblyReference.cache
+C:\Users\Vimukthi\Desktop\Electromaster\ElectroMaster\obj\Debug\ElectroMaster.Form1.resources
+C:\Users\Vimukthi\Desktop\Electromaster\ElectroMaster\obj\Debug\ElectroMaster.NewSalesPoint.resources
+C:\Users\Vimukthi\Desktop\Electromaster\ElectroMaster\obj\Debug\ElectroMaster.Properties.Resources.resources
+C:\Users\Vimukthi\Desktop\Electromaster\ElectroMaster\obj\Debug\ElectroMaster.SalesPointLogin.resources
+C:\Users\Vimukthi\Desktop\Electromaster\ElectroMaster\obj\Debug\ElectroMaster.csproj.GenerateResource.Cache
