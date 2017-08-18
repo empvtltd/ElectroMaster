@@ -1,0 +1,18 @@
+c:\users\vimukthi\documents\visual studio 2015\Projects\ElectroMaster\ElectroMaster\bin\Debug\ElectroMaster.exe.config
+c:\users\vimukthi\documents\visual studio 2015\Projects\ElectroMaster\ElectroMaster\bin\Debug\ElectroMaster.exe
+c:\users\vimukthi\documents\visual studio 2015\Projects\ElectroMaster\ElectroMaster\bin\Debug\ElectroMaster.pdb
+c:\users\vimukthi\documents\visual studio 2015\Projects\ElectroMaster\ElectroMaster\bin\Debug\MetroFramework.Design.dll
+c:\users\vimukthi\documents\visual studio 2015\Projects\ElectroMaster\ElectroMaster\bin\Debug\MetroFramework.dll
+c:\users\vimukthi\documents\visual studio 2015\Projects\ElectroMaster\ElectroMaster\bin\Debug\MetroFramework.Fonts.dll
+c:\users\vimukthi\documents\visual studio 2015\Projects\ElectroMaster\ElectroMaster\obj\Debug\ElectroMaster.csprojResolveAssemblyReference.cache
+c:\users\vimukthi\documents\visual studio 2015\Projects\ElectroMaster\ElectroMaster\obj\Debug\ElectroMaster.Form1.resources
+c:\users\vimukthi\documents\visual studio 2015\Projects\ElectroMaster\ElectroMaster\obj\Debug\ElectroMaster.Properties.Resources.resources
+c:\users\vimukthi\documents\visual studio 2015\Projects\ElectroMaster\ElectroMaster\obj\Debug\ElectroMaster.csproj.GenerateResource.Cache
+c:\users\vimukthi\documents\visual studio 2015\Projects\ElectroMaster\ElectroMaster\obj\Debug\ElectroMaster.exe
+c:\users\vimukthi\documents\visual studio 2015\Projects\ElectroMaster\ElectroMaster\obj\Debug\ElectroMaster.pdb
+C:\Users\Vimukthi\Documents\Visual Studio 2015\Projects\ElectroMaster\ElectroMaster\obj\Debug\ElectroMaster.AddEmployee.resources
+C:\Users\Vimukthi\Documents\Visual Studio 2015\Projects\ElectroMaster\ElectroMaster\obj\Debug\ElectroMaster.NewSalesPoint.resources
+C:\Users\Vimukthi\Documents\Visual Studio 2015\Projects\ElectroMaster\ElectroMaster\obj\Debug\ElectroMaster.SalesPointLogin.resources
+C:\Users\Vimukthi\Desktop\Electromaster\ElectroMaster\bin\Debug\ElectroMaster.exe.config
+C:\Users\Vimukthi\Desktop\Electromaster\ElectroMaster\obj\Debug\ElectroMaster.exe
+C:\Users\Vimukthi\Desktop\Electromaster\ElectroMaster\obj\Debug\ElectroMaster.pdb
