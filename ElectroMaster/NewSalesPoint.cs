@@ -27,9 +27,11 @@ namespace ElectroMaster
 
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void metroButton1_Click(object sender, EventArgs e)
         {
-
+            var myForm = new NewSalesPointView();
+            myForm.Show();
+            this.Dispose();
         }
     }
 }

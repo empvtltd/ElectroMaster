@@ -29,12 +29,14 @@ namespace ElectroMaster
 
         private void aDDEMPLOYEEToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+            var myForm = new AddEmployee();
+            myForm.Show();
         }
 
-        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        private void sTARTNEWTRIPToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            var myForm = new NewTrip();
+            myForm.Show();
         }
 
         private void sTARTNEWSALESPOINTToolStripMenuItem_Click(object sender, EventArgs e)

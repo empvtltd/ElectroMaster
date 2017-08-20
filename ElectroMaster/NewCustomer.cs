@@ -10,26 +10,21 @@ using System.Windows.Forms;
 
 namespace ElectroMaster
 {
-    public partial class SalesPointLogin : MetroFramework.Forms.MetroForm
+    public partial class NewCustomer :MetroFramework.Forms.MetroForm
     {
-        public SalesPointLogin()
+        public NewCustomer()
         {
             InitializeComponent();
         }
 
-        private void SalesPointLogin_Load(object sender, EventArgs e)
+        private void NewCustomer_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void metroButton1_Click(object sender, EventArgs e)
-        {
-            var myForm = new NewSalesPoint();
+            var myForm = new NewSalesPointView();
             myForm.Show();
             this.Dispose();
         }

@@ -99,20 +99,21 @@
             // 
             // metroButton1
             // 
-            this.metroButton1.Location = new System.Drawing.Point(192, 191);
+            this.metroButton1.Location = new System.Drawing.Point(201, 191);
             this.metroButton1.Name = "metroButton1";
-            this.metroButton1.Size = new System.Drawing.Size(84, 23);
+            this.metroButton1.Size = new System.Drawing.Size(75, 23);
             this.metroButton1.TabIndex = 5;
             this.metroButton1.Text = "Login";
             this.metroButton1.UseSelectable = true;
+            this.metroButton1.Click += new System.EventHandler(this.metroButton1_Click);
             // 
             // metroButton2
             // 
             this.metroButton2.Location = new System.Drawing.Point(319, 191);
             this.metroButton2.Name = "metroButton2";
-            this.metroButton2.Size = new System.Drawing.Size(83, 23);
+            this.metroButton2.Size = new System.Drawing.Size(75, 23);
             this.metroButton2.TabIndex = 6;
-            this.metroButton2.Text = "Cancel";
+            this.metroButton2.Text = "Cansel";
             this.metroButton2.UseSelectable = true;
             // 
             // metroLabel4

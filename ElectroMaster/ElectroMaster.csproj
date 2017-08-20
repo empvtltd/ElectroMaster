@@ -58,17 +58,41 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddEmployee.Designer.cs">
+      <DependentUpon>AddEmployee.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="NewCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewCustomer.Designer.cs">
+      <DependentUpon>NewCustomer.cs</DependentUpon>
+    </Compile>
     <Compile Include="NewSalesPoint.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="NewSalesPoint.Designer.cs">
       <DependentUpon>NewSalesPoint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewSalesPointView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewSalesPointView.Designer.cs">
+      <DependentUpon>NewSalesPointView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewTrip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewTrip.Designer.cs">
+      <DependentUpon>NewTrip.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -78,11 +102,23 @@
     <Compile Include="SalesPointLogin.Designer.cs">
       <DependentUpon>SalesPointLogin.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AddEmployee.resx">
+      <DependentUpon>AddEmployee.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="NewCustomer.resx">
+      <DependentUpon>NewCustomer.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="NewSalesPoint.resx">
       <DependentUpon>NewSalesPoint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewSalesPointView.resx">
+      <DependentUpon>NewSalesPointView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewTrip.resx">
+      <DependentUpon>NewTrip.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

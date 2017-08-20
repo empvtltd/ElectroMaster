@@ -30,6 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.eMPLOYEEToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aDDEMPLOYEEToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.rEMOVECHANGEEMPLOYEEToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -44,11 +45,12 @@
             this.cOLLECTIONToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.fINANCEToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tRANSPORTATIONToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sTARTNEWTRIPToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cHECKDRIVERSAVILABILITYToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cHECKVEHICLESAVILABILITYToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.vEHICLEFUELDETAILSToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.iNVENTORYToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.eXITToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.rETURNITEMSToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.aDDNEWCUSTOMERToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -64,15 +66,17 @@
             this.fINANCEToolStripMenuItem,
             this.tRANSPORTATIONToolStripMenuItem,
             this.iNVENTORYToolStripMenuItem,
-            this.eXITToolStripMenuItem,
-            this.rETURNITEMSToolStripMenuItem});
+            this.eXITToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(20, 60);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
             this.menuStrip1.Size = new System.Drawing.Size(1330, 127);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
-            this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
+            // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
             // eMPLOYEEToolStripMenuItem
             // 
@@ -161,8 +165,6 @@
             // 
             // mANAGECUSTOMERToolStripMenuItem
             // 
-            this.mANAGECUSTOMERToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.aDDNEWCUSTOMERToolStripMenuItem});
             this.mANAGECUSTOMERToolStripMenuItem.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mANAGECUSTOMERToolStripMenuItem.Name = "mANAGECUSTOMERToolStripMenuItem";
             this.mANAGECUSTOMERToolStripMenuItem.Size = new System.Drawing.Size(276, 24);
@@ -197,12 +199,46 @@
             // 
             // tRANSPORTATIONToolStripMenuItem
             // 
+            this.tRANSPORTATIONToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.sTARTNEWTRIPToolStripMenuItem,
+            this.cHECKDRIVERSAVILABILITYToolStripMenuItem,
+            this.cHECKVEHICLESAVILABILITYToolStripMenuItem,
+            this.vEHICLEFUELDETAILSToolStripMenuItem});
             this.tRANSPORTATIONToolStripMenuItem.Image = global::ElectroMaster.Properties.Resources.Transportation;
             this.tRANSPORTATIONToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.tRANSPORTATIONToolStripMenuItem.Name = "tRANSPORTATIONToolStripMenuItem";
             this.tRANSPORTATIONToolStripMenuItem.Size = new System.Drawing.Size(204, 123);
             this.tRANSPORTATIONToolStripMenuItem.Text = "TRANSPORTATION";
             this.tRANSPORTATIONToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            // 
+            // sTARTNEWTRIPToolStripMenuItem
+            // 
+            this.sTARTNEWTRIPToolStripMenuItem.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.sTARTNEWTRIPToolStripMenuItem.Name = "sTARTNEWTRIPToolStripMenuItem";
+            this.sTARTNEWTRIPToolStripMenuItem.Size = new System.Drawing.Size(261, 24);
+            this.sTARTNEWTRIPToolStripMenuItem.Text = "START NEW TRIP";
+            this.sTARTNEWTRIPToolStripMenuItem.Click += new System.EventHandler(this.sTARTNEWTRIPToolStripMenuItem_Click);
+            // 
+            // cHECKDRIVERSAVILABILITYToolStripMenuItem
+            // 
+            this.cHECKDRIVERSAVILABILITYToolStripMenuItem.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cHECKDRIVERSAVILABILITYToolStripMenuItem.Name = "cHECKDRIVERSAVILABILITYToolStripMenuItem";
+            this.cHECKDRIVERSAVILABILITYToolStripMenuItem.Size = new System.Drawing.Size(261, 24);
+            this.cHECKDRIVERSAVILABILITYToolStripMenuItem.Text = "DRIVERS AVILABILITY";
+            // 
+            // cHECKVEHICLESAVILABILITYToolStripMenuItem
+            // 
+            this.cHECKVEHICLESAVILABILITYToolStripMenuItem.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cHECKVEHICLESAVILABILITYToolStripMenuItem.Name = "cHECKVEHICLESAVILABILITYToolStripMenuItem";
+            this.cHECKVEHICLESAVILABILITYToolStripMenuItem.Size = new System.Drawing.Size(261, 24);
+            this.cHECKVEHICLESAVILABILITYToolStripMenuItem.Text = "VEHICLES AVILABILITY";
+            // 
+            // vEHICLEFUELDETAILSToolStripMenuItem
+            // 
+            this.vEHICLEFUELDETAILSToolStripMenuItem.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.vEHICLEFUELDETAILSToolStripMenuItem.Name = "vEHICLEFUELDETAILSToolStripMenuItem";
+            this.vEHICLEFUELDETAILSToolStripMenuItem.Size = new System.Drawing.Size(261, 24);
+            this.vEHICLEFUELDETAILSToolStripMenuItem.Text = "FUEL DETAILS";
             // 
             // iNVENTORYToolStripMenuItem
             // 
@@ -222,23 +258,6 @@
             this.eXITToolStripMenuItem.Text = "EXIT";
             this.eXITToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.eXITToolStripMenuItem.Click += new System.EventHandler(this.eXITToolStripMenuItem_Click);
-            // 
-            // contextMenuStrip1
-            // 
-            this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
-            // 
-            // rETURNITEMSToolStripMenuItem
-            // 
-            this.rETURNITEMSToolStripMenuItem.Name = "rETURNITEMSToolStripMenuItem";
-            this.rETURNITEMSToolStripMenuItem.Size = new System.Drawing.Size(171, 123);
-            this.rETURNITEMSToolStripMenuItem.Text = "RETURN ITEMS";
-            // 
-            // aDDNEWCUSTOMERToolStripMenuItem
-            // 
-            this.aDDNEWCUSTOMERToolStripMenuItem.Name = "aDDNEWCUSTOMERToolStripMenuItem";
-            this.aDDNEWCUSTOMERToolStripMenuItem.Size = new System.Drawing.Size(249, 24);
-            this.aDDNEWCUSTOMERToolStripMenuItem.Text = "ADD NEW CUSTOMER";
             // 
             // Form1
             // 
@@ -277,8 +296,10 @@
         private System.Windows.Forms.ToolStripMenuItem mANAGEORDERToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem pRICECHANGESToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem mANAGECUSTOMERToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem aDDNEWCUSTOMERToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem rETURNITEMSToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem sTARTNEWTRIPToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cHECKDRIVERSAVILABILITYToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cHECKVEHICLESAVILABILITYToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem vEHICLEFUELDETAILSToolStripMenuItem;
     }
 }
 
