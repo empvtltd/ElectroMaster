@@ -34,3 +34,5 @@ C:\Users\Vimukthi\Desktop\Electromaster\ElectroMaster\obj\Debug\ElectroMaster.Ne
 C:\Users\Vimukthi\Desktop\Electromaster\ElectroMaster\obj\Debug\ElectroMaster.Properties.Resources.resources
 C:\Users\Vimukthi\Desktop\Electromaster\ElectroMaster\obj\Debug\ElectroMaster.SalesPointLogin.resources
 C:\Users\Vimukthi\Desktop\Electromaster\ElectroMaster\obj\Debug\ElectroMaster.csproj.GenerateResource.Cache
+C:\Users\Vimukthi\Desktop\Electromaster\ElectroMaster\obj\Debug\ElectroMaster.ManageDiscount.resources
+C:\Users\Vimukthi\Desktop\Electromaster\ElectroMaster\obj\Debug\ElectroMaster.ManageCustomers.resources

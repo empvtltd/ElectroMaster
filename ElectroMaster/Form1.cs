@@ -24,7 +24,7 @@ namespace ElectroMaster
 
         private void eXITToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            this.Close();
+            
         }
 
         private void aDDEMPLOYEEToolStripMenuItem_Click(object sender, EventArgs e)
@@ -42,6 +42,18 @@ namespace ElectroMaster
         private void sTARTNEWSALESPOINTToolStripMenuItem_Click(object sender, EventArgs e)
         {
             var myForm = new SalesPointLogin();
+            myForm.Show();
+        }
+
+        private void dISCOUNTSToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var myForm = new ManageDiscount();
+            myForm.Show();
+        }
+
+        private void mANAGECUSTOMERToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var myForm = new ManageCustomers();
             myForm.Show();
         }
     }
