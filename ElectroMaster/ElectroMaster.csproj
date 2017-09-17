@@ -45,6 +45,7 @@
       <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -58,91 +59,121 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AddEmployee.cs">
+    <Compile Include="addAttendanceEmployee.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AddEmployee.Designer.cs">
-      <DependentUpon>AddEmployee.cs</DependentUpon>
+    <Compile Include="addAttendanceEmployee.Designer.cs">
+      <DependentUpon>addAttendanceEmployee.cs</DependentUpon>
     </Compile>
-    <Compile Include="CashPayement.cs" />
-    <Compile Include="CreditPayment.cs" />
-    <Compile Include="Customer.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="addBranch.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="addBranch.Designer.cs">
+      <DependentUpon>addBranch.cs</DependentUpon>
     </Compile>
-    <Compile Include="ManageCustomers.cs">
+    <Compile Include="AddEmpInterface.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ManageCustomers.Designer.cs">
-      <DependentUpon>ManageCustomers.cs</DependentUpon>
+    <Compile Include="AddEmpInterface.Designer.cs">
+      <DependentUpon>AddEmpInterface.cs</DependentUpon>
     </Compile>
-    <Compile Include="ManageDiscount.cs">
+    <Compile Include="AdminLogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ManageDiscount.Designer.cs">
-      <DependentUpon>ManageDiscount.cs</DependentUpon>
+    <Compile Include="AdminLogin.Designer.cs">
+      <DependentUpon>AdminLogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="NewCustomer.cs">
+    <Compile Include="attendance.cs" />
+    <Compile Include="AttendanceMarkBarCode.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="NewCustomer.Designer.cs">
-      <DependentUpon>NewCustomer.cs</DependentUpon>
+    <Compile Include="AttendanceMarkBarCode.Designer.cs">
+      <DependentUpon>AttendanceMarkBarCode.cs</DependentUpon>
     </Compile>
-    <Compile Include="NewSalesPoint.cs">
+    <Compile Include="branch.cs" />
+    <Compile Include="DBMysqlUtils.cs" />
+    <Compile Include="deleteUpadateEmployee.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="NewSalesPoint.Designer.cs">
-      <DependentUpon>NewSalesPoint.cs</DependentUpon>
+    <Compile Include="deleteUpadateEmployee.Designer.cs">
+      <DependentUpon>deleteUpadateEmployee.cs</DependentUpon>
     </Compile>
-    <Compile Include="NewSalesPointView.cs">
+    <Compile Include="Department.cs" />
+    <Compile Include="Employee.cs" />
+    <Compile Include="EmployeeSalary.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="NewSalesPointView.Designer.cs">
-      <DependentUpon>NewSalesPointView.cs</DependentUpon>
+    <Compile Include="EmployeeSalary.Designer.cs">
+      <DependentUpon>EmployeeSalary.cs</DependentUpon>
     </Compile>
-    <Compile Include="NewTrip.cs">
+    <Compile Include="empOffDays.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="NewTrip.Designer.cs">
-      <DependentUpon>NewTrip.cs</DependentUpon>
+    <Compile Include="empOffDays.Designer.cs">
+      <DependentUpon>empOffDays.cs</DependentUpon>
     </Compile>
-    <Compile Include="Payment.cs" />
+    <Compile Include="MainGUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainGUI.Designer.cs">
+      <DependentUpon>MainGUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="manageSalaryAdvance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="manageSalaryAdvance.Designer.cs">
+      <DependentUpon>manageSalaryAdvance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MysqlDataReader.cs" />
+    <Compile Include="permanetEmp.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SalesPoint.cs" />
-    <Compile Include="SalesPointLogin.cs">
+    <Compile Include="Salary.cs" />
+    <Compile Include="SalaryAdvance.cs" />
+    <Compile Include="searchEmployee.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SalesPointLogin.Designer.cs">
-      <DependentUpon>SalesPointLogin.cs</DependentUpon>
+    <Compile Include="searchEmployee.Designer.cs">
+      <DependentUpon>searchEmployee.cs</DependentUpon>
     </Compile>
-    <Compile Include="Transpotation.cs" />
-    <EmbeddedResource Include="AddEmployee.resx">
-      <DependentUpon>AddEmployee.cs</DependentUpon>
+    <Compile Include="temporaryEmp.cs" />
+    <Compile Include="TrustFunds.cs" />
+    <Compile Include="validationsHeshani.cs" />
+    <Compile Include="ViewSalary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewSalary.Designer.cs">
+      <DependentUpon>ViewSalary.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="addAttendanceEmployee.resx">
+      <DependentUpon>addAttendanceEmployee.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="addBranch.resx">
+      <DependentUpon>addBranch.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ManageCustomers.resx">
-      <DependentUpon>ManageCustomers.cs</DependentUpon>
+    <EmbeddedResource Include="AddEmpInterface.resx">
+      <DependentUpon>AddEmpInterface.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ManageDiscount.resx">
-      <DependentUpon>ManageDiscount.cs</DependentUpon>
+    <EmbeddedResource Include="AdminLogin.resx">
+      <DependentUpon>AdminLogin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewCustomer.resx">
-      <DependentUpon>NewCustomer.cs</DependentUpon>
+    <EmbeddedResource Include="AttendanceMarkBarCode.resx">
+      <DependentUpon>AttendanceMarkBarCode.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewSalesPoint.resx">
-      <DependentUpon>NewSalesPoint.cs</DependentUpon>
+    <EmbeddedResource Include="deleteUpadateEmployee.resx">
+      <DependentUpon>deleteUpadateEmployee.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewSalesPointView.resx">
-      <DependentUpon>NewSalesPointView.cs</DependentUpon>
+    <EmbeddedResource Include="EmployeeSalary.resx">
+      <DependentUpon>EmployeeSalary.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="NewTrip.resx">
-      <DependentUpon>NewTrip.cs</DependentUpon>
+    <EmbeddedResource Include="empOffDays.resx">
+      <DependentUpon>empOffDays.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainGUI.resx">
+      <DependentUpon>MainGUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="manageSalaryAdvance.resx">
+      <DependentUpon>manageSalaryAdvance.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -154,8 +185,11 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="SalesPointLogin.resx">
-      <DependentUpon>SalesPointLogin.cs</DependentUpon>
+    <EmbeddedResource Include="searchEmployee.resx">
+      <DependentUpon>searchEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewSalary.resx">
+      <DependentUpon>ViewSalary.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -230,6 +264,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\tour.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search1600.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\searchbtn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\searchbtn1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
